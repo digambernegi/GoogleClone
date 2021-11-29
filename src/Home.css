@@ -1,0 +1,54 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .home_header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px 22px;
+    align-items: center;
+  }
+  .MuiSvgIcon-root {
+    color: #5f6368;
+  }
+
+  .acct {
+    margin-left: 15px;
+  }
+  .home_header a {
+    padding-right: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.87);
+    transition: all 1.3s ease;
+  }
+  .home_header a:hover {
+    text-decoration: underline;
+  }
+  .home .header_left {
+    display: none;
+  }
+  .home .header_right {
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    float: right;
+    justify-content: space-between;
+  }
+
+  .home .header_right > .MuiSvfIcon-root /* defaultnamebymaterialui */ {
+    margin-right: 20px;
+  }
+
+  .home_body {
+    flex: 1;
+    display: flex;
+    /* margin: 3% 33%; */
+    margin: 3rem;
+    flex-direction: column;
+  }
+  .home_body > img {
+    height: 200px;
+    align-self: center;
+  }
